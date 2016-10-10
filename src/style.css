@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+body, input, td, th {
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.row-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.row-table input {
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 3px;
+}
+.row-table input[type=checkbox] {
+    width: 1.5em;
+}
+
+.row-table td {
+    border: 1px dotted silver;
+}
+
+
+.row-table th {
+    border: 1px solid gray;
+    background: gray;
+    color: white;
+}
